@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="m">
+      <UniqueIdentifier>{a33614ed-dc52-4aae-9f7b-32fb1a26096a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m\c">
+      <UniqueIdentifier>{8b181767-747b-4ea3-a078-45c61b001524}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="m\xm.h">
+      <Filter>m</Filter>
+    </ClInclude>
+    <ClInclude Include="m\mdbc.h">
+      <Filter>m</Filter>
+    </ClInclude>
+    <ClInclude Include="m\ssf-db.h">
+      <Filter>m</Filter>
+    </ClInclude>
+    <ClInclude Include="m\wcommon.h">
+      <Filter>m</Filter>
+    </ClInclude>
+    <ClInclude Include="m\wtray.h">
+      <Filter>m</Filter>
+    </ClInclude>
+    <ClInclude Include="m\c\CodeX.h">
+      <Filter>m\c</Filter>
+    </ClInclude>
+    <ClInclude Include="m\c\ICodeX.h">
+      <Filter>m\c</Filter>
+    </ClInclude>
+    <ClInclude Include="m\c\mprotocol.h">
+      <Filter>m\c</Filter>
+    </ClInclude>
+    <ClInclude Include="m\c\protocol_shof.h">
+      <Filter>m\c</Filter>
+    </ClInclude>
+    <ClInclude Include="m\c\util.h">
+      <Filter>m\c</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="code.x.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="m\mdbc.c">
+      <Filter>m</Filter>
+    </ClCompile>
+    <ClCompile Include="m\ssf-db.c">
+      <Filter>m</Filter>
+    </ClCompile>
+    <ClCompile Include="m\wcommon.c">
+      <Filter>m</Filter>
+    </ClCompile>
+    <ClCompile Include="m\wtray.c">
+      <Filter>m</Filter>
+    </ClCompile>
+    <ClCompile Include="m\xm.c">
+      <Filter>m</Filter>
+    </ClCompile>
+    <ClCompile Include="m\c\CodeX.c">
+      <Filter>m\c</Filter>
+    </ClCompile>
+    <ClCompile Include="m\c\mprotocol.c">
+      <Filter>m\c</Filter>
+    </ClCompile>
+    <ClCompile Include="m\c\protocol_shof.c">
+      <Filter>m\c</Filter>
+    </ClCompile>
+    <ClCompile Include="m\c\util.c">
+      <Filter>m\c</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="code.x.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="preBuild.bat" />
+  </ItemGroup>
+</Project>
